@@ -1,0 +1,169 @@
+.headerContainer {
+    background-color: black;
+    background-position: bottom;
+    color: #ffffff;
+    margin: 0;
+    font-size: 30px;
+    padding: 10px;
+    height: 50px;
+    text-shadow: 2px 2px black;
+    width: 100%;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 5px, rgba(255, 255, 255, 0.3) 0px 10px, rgba(255, 255, 255, 0.2) 0px 15px, rgba(255, 255, 255, 0.1) 0px 20px, rgba(255, 255, 255, 0.05) 0px 25px;
+    text-align: center;
+    border-bottom: 3px solid #ffffff;
+}
+
+.imgList {
+    padding: 0;
+    margin: 5px;
+    width: 150px;
+    border: 4px solid black;
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("https://w.forfun.com/fetch/47/47f16a9521607f90161fa047d669c230.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.4);
+    margin: 0;
+    min-height: calc(100vh - 60px);
+}
+
+.divCards {
+    margin: 10px;
+    margin-top: 20px;
+    width: calc(16.666% - 20px);
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.divCards:hover {
+    transform: scale(1.05);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.pList {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 4px 4px black;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 3px white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+    color: white;
+}
+
+.searchContainer {
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.searchLabel {
+    color: black;
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    text-shadow: 1px 1px #00FF00;
+    background-color: rgba(0, 255, 0, 0.6);
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.6);
+    font-size: 15px;
+}
+
+.searchInput {
+    display: block;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: black;
+    color: #ffffff;
+}
+
+.searchIcon {
+    font-size: 34px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: #111;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.4);
+    position: static;
+}
+
+.pagination button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: black;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #444;
+    color: #ff0000;
+    cursor: not-allowed;
+    border: 3px solid #888;
+}
+
+.pagination span {
+    margin: 0 20px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.noResults {
+    color: #ff0000;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    text-shadow: 1px 1px white;
+}

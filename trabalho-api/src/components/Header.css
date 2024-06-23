@@ -1,0 +1,16 @@
+.headerContainer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-family: 'Playwrite FR Moderne', sans-serif;
+    font-size: 30px;
+    height: 50px;
+    padding: 10px;
+    text-shadow: 2px 2px #111;
+    width: 100%;
+    box-shadow: 0 5px rgba(0, 255, 0, 0.4), 0 10px rgba(0, 255, 0, 0.3), 0 15px rgba(0, 255, 0, 0.2), 0 20px rgba(0, 255, 0, 0.1), 0 25px rgba(0, 255, 0, 0.05);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
